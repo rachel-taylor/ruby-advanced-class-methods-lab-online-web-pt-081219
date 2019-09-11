@@ -22,6 +22,7 @@ class Song
       new_song
     end
     
+<<<<<<< HEAD
   # def Song.new_by_name(title)
   #   my_song = self.new
   #   song.name = title 
@@ -80,4 +81,13 @@ class Song
   def self.destroy_all
     self.all.clear
   end
+=======
+   def self.new_by_name(song_name)
+    self.new_by_name("The Middle")
+    self.name
+  end 
+  
+  # def Song.create_by_name
+  
+>>>>>>> 0823db7d54011f4f8c7698ee0c4c16ee6efefa70
 end
